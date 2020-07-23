@@ -5,6 +5,8 @@
     1) mask_shelf          :Create mask for shelf region only
     2) mask_box            :masks for pre-defined shelf boxes
     3) load_oisst          : load oisst monthly data, option to add sst in pre-defined boxes
+    4) deseason            : remove seasonal cycle (output are anomalies), with option to define reference period
+
 '''
 
 import numpy as np
